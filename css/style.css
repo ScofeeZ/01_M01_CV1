@@ -76,9 +76,13 @@ h2, h3, p {
     width: 49.9%;
 }
 
-.profile, .formation {
+.profile {
     padding-right: 20px;
     border-bottom: solid 1px white;
+}
+
+.formation {
+    padding-right: 20px;
 }
 
 .profile {
@@ -138,7 +142,7 @@ h2, h3, p {
 }
 
 .cap, .baccalaureat {
-    border-right: solid 1px white;
+    border-right: dashed 1px white;
 }
 
 .cap, .baccalaureat, .e2n {
@@ -335,7 +339,7 @@ li li {
 }
 
 .xp3 {
-    height: 36px;
+    height: 10px;
 }
 
 .year h3 {
@@ -389,6 +393,43 @@ li li {
 .xpDescrip p {
     padding-top: 5px;
     margin: 0;
+}
+
+/* hobbies */
+
+#hobbies {
+    float: left;
+    margin: 0 0 50px 0;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    width: 100%;
+}
+
+.obiz {
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+
+.obiz .icoHobiz, .obiz p, .obiz .genIco {
+    margin: 0;
+    text-align: center;
+}
+
+.obiz .icoHobiz {
+    color: white;
+    font-family: FontAwesome;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.obiz p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
 }
 
 
