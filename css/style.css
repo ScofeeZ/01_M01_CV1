@@ -1,0 +1,419 @@
+body {
+    background-color: #344146;
+    font-family: "Inconsolata";
+}
+
+@font-face {
+    font-family: "Molesk";
+    src: url("fonts/molesk.ttf");
+}
+
+#head h1 {
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 44px;
+    font-family: "Molesk";
+}
+
+#head h2 {
+    text-transform: lowercase;
+    font-family: "Inconsolata";
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: inherit;
+    text-transform: uppercase;
+    font-family: "Molesk";
+}
+
+h3, .name {
+    font-weight: bold;
+    font-family: "Inconsolata";
+    font-size: 18px;
+}
+
+h2, h3, p {
+    color: white;
+}
+
+#global {
+    margin: 0px auto;
+    width: 1000px;
+}
+
+.inline {
+    width: 100%;
+    display: inline-flex;
+    margin: 18px 0px 20px 0px;
+}
+
+#head {
+    color: white;
+    border-bottom: solid 1px white;
+    text-align: center;
+    margin: 0px;
+    padding: 30px 0px;
+    width: 100%;
+}
+
+#head h2 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+#left {
+    float: left;
+    border-right: solid 1px white;
+    margin: 0px;
+    width: 50%;
+}
+
+#right {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width: 49.9%;
+}
+
+.profile, .formation {
+    padding-right: 20px;
+    border-bottom: solid 1px white;
+}
+
+.profile {
+    padding-top: 20px;
+}
+
+.pix img {
+    margin: 0px;
+    width: 100%;
+}
+
+.lorem h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 12px 0px 10px 0px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-weight: inherit;
+    font-size: 24px;
+    margin: 20px 0 14px;
+    text-align: center;
+}
+
+.formation h2 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.competences h2 {
+    font-weight: bold;
+    padding-left: 26px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.competences {
+    width: 100%;
+}
+
+.lorem p {
+    font-weight: inherit;
+    font-size: 15px;
+    padding-bottom: 12px;
+    margin: 0px 0px 12px 0px;
+    text-align: justify;
+}
+
+.cap, .baccalaureat {
+    border-right: solid 1px white;
+}
+
+.cap, .baccalaureat, .e2n {
+    text-align: center;
+    margin: 0px;
+    width: 33%;
+}
+
+/*  circles  */
+
+.skills {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#AllCircles1 {
+    padding-left: 26px;
+    width: 100%;
+    float: left;
+}
+
+#AllCircles2 {
+    padding-bottom: 26px;
+    border-bottom: dashed 1px white;
+    padding-left: 26px;
+    margin-top: 24px;
+    width: 95%;
+    float: left;
+}
+
+.MyCircles {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    float: left;
+}
+
+.MyCircles h3 {
+    font-size: 14px;
+    padding-top: 72px;
+    text-align: left;
+    padding-left: 4px;
+    width: 100%;
+}
+
+.MyCircles.L0 {
+    width: 26%
+}
+
+.MyCircles.L1 {
+    width: 27%
+}
+
+.MyCircles.L2 {
+    width: 16%
+}
+
+
+/* Icons Formations */
+
+
+.iconAWAi {
+    margin: 0;
+    color: white;
+    font-size: 90px;
+}
+
+
+/* tools */
+
+.tools {
+    clear: both;
+    width: 100%;
+    height: 102px;
+    border-bottom: solid 1px white;
+}
+
+.line_one, .line_two {
+    clear: both;
+}
+
+.boutontool {
+    float: left;
+    margin: 14px 0 0 0;
+    font-family: Inconsolata;
+    line-height: 0px;
+    color: white;
+    border-radius: 3px;
+    background-color: #2D373B;
+    height: 26px;
+    padding: 0 10px;
+    max-width: -moz-max-content;
+}
+
+.boutontool.Bstart {
+    margin-left: 20px;
+}
+
+.boutontool.Bmid {
+    margin-left: 14px;
+}
+
+.boutontool h3 {
+    font-size: 14px;
+}
+
+
+/* data */
+
+.datalife {
+    color: white;
+    width: 100%;
+    clear: both;
+}
+
+.data_left, .data_right, .datamid {
+    border-bottom: solid 1px white;
+    height: 144px;
+    font-family: Inconsolata;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.data_left {
+    width: 36%;
+}
+
+.datamid {
+    border-right: dashed 1px white;
+    width: 0px;
+}
+
+.data_right {
+    width: 63.8%;
+}
+
+ul {
+    margin: 0;
+    padding: 20px 0 0 20px;
+}
+
+li.contacttop {
+    padding: 0 0 5px 14px;
+}
+
+li .GitHub, li .LastFM, li .Steam, li .Skype {
+    font-family: FontAwesome;
+    font-size: 30px;
+}
+
+li i {
+    padding-top: 20px;
+}
+
+li {
+    padding-bottom: 5px;
+    font-size: 17px;
+    list-style: none;
+    margin: 0;
+}
+
+ul ul {
+    border-left: 4px solid #2d373b;
+    margin: 2px 0 0;
+    padding: 0 0 0 10px;
+}
+
+li li {
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+/* ----- | OLD SKILLS | ------
+
+.skills {
+    height: ;
+}
+
+.name {
+    text-align: right;
+    margin-bottom: -3px;
+    color: blue;
+}
+
+.done {
+    background-color: orange;
+}
+
+.learn {
+    background-color: white;
+}
+
+.done, .learn {
+    float: left;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.skill1 .name, .skill1 .done {
+    width: 64%;
+}
+
+.skill1 .learn {
+    width: 36%;
+}
+
+.skill2 .name, .skill2 .done {
+    width: 10%;
+}
+
+.skill2 .learn {
+    width: 90%;
+}
+
+.skill3 .name, .skill3 .done {
+    width: 2%;
+}
+
+.skill3 .learn {
+    width: 98%;
+}
+
+.skill4 .name, .skill4 .done {
+    width: 96%;
+}
+
+.skill4 .learn {
+    width: 4%;
+}
+
+.skill5 .name, .skill5 .done {
+    width: 82%;
+}
+
+.skill5 .learn {
+    width: 18%;
+}
+
+.skill6 .name, .skill6 .done {
+    width: 42%;
+}
+
+.skill6 .learn {
+    width: 58%;
+}
+
+
+
+
+<div class="skill1">
+  <div class="name">html5/css3</div>
+  <div class="done"></div>
+  <div class="learn"></div>
+</div>
+<div class="skill2">
+  <div class="name">php</div>
+  <div class="done"></div>
+  <div class="learn"></div>
+</div>
+<div class="skill3">
+  <div class="name">js</div>
+  <div class="done"></div>
+  <div class="learn"></div>
+</div>
+<div class="skill4">
+  <div class="name">photoshop</div>
+  <div class="done"></div>
+  <div class="learn"></div>
+</div>
+<div class="skill5">
+  <div class="name">illustrator</div>
+  <div class="done"></div>
+  <div class="learn"></div>
+</div>
+<div class="skill6">
+  <div class="name">linux</div>
+  <div class="done"></div>
+  <div class="learn"></div>
+</div>
+
+
+
+
+
+*/
