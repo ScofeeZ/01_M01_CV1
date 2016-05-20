@@ -118,6 +118,13 @@ h2, h3, p {
     margin: 20px 0;
 }
 
+.experiences h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
 .competences {
     width: 100%;
 }
@@ -303,6 +310,87 @@ li li {
     padding-bottom: 0px;
     margin: 0;
 }
+
+/* Experiences */
+
+.experiences {
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    clear: both;
+}
+
+.xp1, .xp2, .xp3 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.xp1 {
+    height: 70px;
+}
+
+.xp2 {
+    height: 54px;
+}
+
+.xp3 {
+    height: 36px;
+}
+
+.year h3 {
+    line-height: 26px;
+    color: white;
+    border-radius: 3px;
+    background-color: #2D373B;
+    height: 26px;
+    padding: 0 8px;
+    margin: 0;
+    text-align: center;
+    width: 42px;
+}
+
+.year, .separate_bar, .xpDescrip {
+    float: left;
+}
+
+.year {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.separate_bar {
+    padding: 0 12px;
+    height: 100%;
+}
+
+.separate_bar .carre {
+    color: white;
+    font-family: FontAwesome;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding-top: 8px;
+}
+
+.separate_bar .splitter {
+    height: 100%;
+    width: 0px;
+    border-right: dashed 1px white;
+    padding: 0 2px 0 3px;
+}
+
+.xpDescrip {
+    color: white;
+    width: 77%;
+    margin: 0;
+}
+
+.xpDescrip p {
+    padding-top: 5px;
+    margin: 0;
+}
+
 
 /* ----- | OLD SKILLS | ------
 
